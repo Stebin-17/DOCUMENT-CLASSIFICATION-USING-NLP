@@ -10,6 +10,8 @@ Document/Text classification is an important task that has use cases in many rea
 ## Dataset
 The chosen dataset is the ‘AG News’ dataset consisting of 1,20,000 news articles for training categorized in four categories- World, Sports, Business, Sci/Tech. It also includes 7600 testing samples in csv format.
 
+#
+
 ## Text Pre-processing
 It is predominantly comprised of three steps:
 
@@ -22,8 +24,14 @@ Treating Numbers: In our application numbers do not provide any significant know
 
 - Normalization – In this process, I have standardized the text into uniform sequence. I have converted the text to lowercase and using NLTK libraries performed stemming and lemmatization. Stemming refers to removing the suffixes attached to a word and lemmatization refers to conserving the root word of a word. We have used lemmatization for our textual data because that performed better with the pre-trained word embedding.
 
+#
+
 ## Result
 The model that gave me the best performance on the test data is was CNN with an accuracy of 90.87 % with 10 epochs. The model can be used to process any document and predict a class for it.
 
+#
+
 ## Conclusion
 While the classical models provided a good accuracy the neural network models improved it further. With more data the deep learning models will outmatch classical models. Using word embedding provided an additional 2-3% improvement in accuracy and faster training time. CNN provided the best performance in neural networks.
+
+#
